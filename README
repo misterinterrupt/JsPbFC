@@ -1,0 +1,4 @@
+I am creating some javascript modules inspired by the SuperCollider language.
+These Pattern-based functions are used in SC for algorithmic composition.
+As coding practice, I am recreating them in Javascript. I am hoping to 
+to find a way to use them in coordination with asynchronous flow-control Algorithms.
