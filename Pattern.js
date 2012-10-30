@@ -1,6 +1,6 @@
 /*
  *  A Pattern is constructed with an array.
- *  It represents an infinite series 
+ *  It represents an infinite series
  *  of this pattern.
  */
 (function(exports) {

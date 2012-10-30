@@ -1,6 +1,6 @@
 // usage
 
-var isø = require('./isø');
+var mono = require('../Mono.js');
 
 var taskList = [
 		{
@@ -12,7 +12,7 @@ var taskList = [
 			done: function task1Done(result) {
 				console.log("task 1 produced a result");
 				console.dir(result);
-			},
+			}
 		},
 		{
 			priority: 100,
@@ -23,7 +23,7 @@ var taskList = [
 			done: function task2Done(result) {
 				console.log("task 2 produced a result");
 				console.dir(result);
-			},
+			}
 		},
 		{
 			priority: 0,
@@ -34,7 +34,7 @@ var taskList = [
 			done: function task3Done(result) {
 				console.log("task 3 produced a result");
 				console.dir(result);
-			},
+			}
 		},
 		{
 			priority: 100,
@@ -45,9 +45,9 @@ var taskList = [
 			done: function task4Done(result) {
 				console.log("task 4 produced a result");
 				console.dir(result);
-			},
-		},
+			}
+		}
 ]; // taskList
 
-isø(taskList).run()(taskList)()()()();
+mono(taskList).run()(taskList)()()()();
 

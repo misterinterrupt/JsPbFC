@@ -28,6 +28,7 @@ module.exports = function(grunt) {
         node: true
       },
       globals: {
+        module: true,
         exports: true
       }
     }

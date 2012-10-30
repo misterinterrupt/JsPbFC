@@ -1,5 +1,5 @@
-var Routine = require('./Routine.js'),
-    Pattern = require('./Pattern.js');
+var Routine = require('../Routine.js'),
+    Pattern = require('../Pattern.js');
 
 
 var happyDaze = new Routine(

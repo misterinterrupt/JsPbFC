@@ -1,0 +1,12 @@
+{
+  "name": "Mono",
+  "version": "0.0.3",
+  "main": "Mono.js",
+  "bin": {
+    "Mono": "lib/Mono.js"
+  },
+  "dependencies": {
+    "Deferred": ">=0.0.4",
+    "eventemitter2": ">=0.4.1"
+  }
+}
